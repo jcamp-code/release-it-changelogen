@@ -8,14 +8,14 @@ module.exports = {
   git: {
     commit: true,
     tag: true,
-    push: false,
+    push: true,
     tagName: 'v${version}',
     commitMessage: 'chore(release): v${version}',
   },
   github: {
-    release: false,
+    release: true,
   },
   npm: {
-    publish: false,
+    publish: true,
   },
 }
