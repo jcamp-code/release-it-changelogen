@@ -16,7 +16,9 @@ module.exports = {
     tagAnnotation: 'v${version}',
   },
   github: {
+    releaseName: 'v${version}',
     release: true,
+    web: true,
   },
   npm: {
     publish: true,
