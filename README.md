@@ -2,12 +2,15 @@
 
 ## unjs/changelogen powered versioning and changelog generation plugin for Release It!
 
-This plugin enables semantic versioning (semver) and changelog generation with [Release It!](https://github.com/release-it/release-it)
+This plugin adds the following with [Release It!](https://github.com/release-it/release-it)
 
-It is powered by [unjs/changelogen](https://github.com/unjs/changelogen)
+- Enables semantic versioning (semver) and changelog generation,powered by [unjs/changelogen](https://github.com/unjs/changelogen)
+- Enables [dotenv](https://github.com/motdotla/dotenv) integration automatically; no need to configure it separately
+
+### Installation
 
 ```
-npm install -D release-it-change-log
+npm install -D release-it-changelogen
 ```
 
 In [release-it](https://github.com/release-it/release-it) config:
