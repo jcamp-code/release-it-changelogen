@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.0.3
+
+[compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.2...v0.0.3)
+
+### 🩹 Fixes
+
+- Release notes were also not getting latest changelog ([b9f8ee5](https://github.com/jcamp-code/release-it-changelogen/commit/b9f8ee5))
+
 ## v0.0.2
 
 [compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.1...v0.0.2)
