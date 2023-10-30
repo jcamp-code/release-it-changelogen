@@ -7,13 +7,13 @@ module.exports = {
   git: {
     commit: true,
     tag: true,
-    push: false,
-    // requireCleanWorkingDir: false,
+    push: true,
+    requireCleanWorkingDir: false,
   },
   github: {
-    release: false,
+    release: true,
   },
   npm: {
-    publish: false,
+    publish: true,
   },
 }

@@ -1,7 +1,7 @@
 {
   "name": "release-it-changelogen",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "unjs/changelogen version updater and changelog generator plugin for release-it",
   "author": "John Campion Jr (https://github.com/JohnCampionJr/)",
   "license": "MIT",
