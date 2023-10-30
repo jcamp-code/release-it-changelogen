@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable node/prefer-global/process */
+import 'dotenv/config'
+
 import parseArgs from 'yargs-parser'
 
 import release from '../cli.js'

@@ -1,21 +1,19 @@
-/* eslint-disable no-template-curly-in-string */
 module.exports = {
   plugins: {
-    './dist/index.js': {
+    './dist/index.mjs': {
       excludeAuthors: ['John Campion'],
     },
   },
   git: {
     commit: true,
     tag: true,
-    push: true,
-    tagName: 'v${version}',
-    commitMessage: 'chore(release): v${version}',
+    push: false,
+    // requireCleanWorkingDir: false,
   },
   github: {
-    release: true,
+    release: false,
   },
   npm: {
-    publish: true,
+    publish: false,
   },
 }

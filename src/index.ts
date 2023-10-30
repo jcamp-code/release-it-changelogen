@@ -1,4 +1,7 @@
 import { existsSync, promises as fsp } from 'node:fs'
+
+import 'dotenv/config'
+
 import {
   determineSemverChange,
   generateMarkDown,
