@@ -15,6 +15,8 @@ npm install -D release-it-changelogen
 
 In [release-it](https://github.com/release-it/release-it) config:
 
+You also need to set git tag and commit messages to match semver. Currently, Release It plugins cannot update other plugin's options [Issue](https://github.com/release-it/release-it/issues/988)
+
 ```js
 plugins: {
   'release-it-changelogen': {
@@ -24,7 +26,12 @@ plugins: {
       tagMessage: "v{{newVersion}}",
       tagBody: "v{{newVersion}}",
     }
-  }
+  },
+  git: {
+    tagName: 'v${version}',
+    commitMessage: 'chore(release): v${version}',
+    tagAnnotation: 'v${version}',
+  },
 }
 ```
 

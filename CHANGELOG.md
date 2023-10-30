@@ -1,8 +1,6 @@
 # Changelog
 
-
-## ...main
-
+## v0.0.1
 
 ### 🚀 Enhancements
 
@@ -12,4 +10,3 @@
 ### 🤖 CI
 
 - Update release-it-settings ([b766323](https://github.com/jcamp-code/release-it-changelogen/commit/b766323))
-

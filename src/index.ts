@@ -120,8 +120,7 @@ class ChangelogenPlugin extends Plugin {
       {},
       { newVersion: version },
     )
-    this.changelogContent = await generateMarkDown(commits, config)
-    this.changelogVersion = version
+    this.markdown = await generateMarkDown(commits, config)
   }
 
   async beforeRelease() {
