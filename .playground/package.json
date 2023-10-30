@@ -1,0 +1,27 @@
+{
+  "name": "@jcamp-test/release-it-test-playground-npm",
+  "version": "9.1.16",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/JohnCampionJr/release-it-test",
+  "keywords": [],
+  "sideEffects": false,
+  "publishConfig": {
+    "registry": "https://packages.jcamp.me/npm/test-npm/"
+  },
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "test": "vitest run",
+    "release": "release-it",
+    "pre": "release-it minor --preRelease=beta",
+    "cl": "changelogen"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "release-it": "^16.2.1",
+    "release-it-changelogen": "workspace:*",
+    "typescript": "^5.2.2"
+  }
+}
