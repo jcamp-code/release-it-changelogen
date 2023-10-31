@@ -55,12 +55,10 @@
     "@jcamp/eslint-config": "^1.0.4",
     "@types/node": "^20.8.9",
     "@types/semver": "^7.5.4",
-    "changelogen": "0.5.5",
     "eslint": "8.52.0",
+    "knip": "^2.38.4",
     "prettier": "3.0.3",
-    "release-it": "16.2.1",
     "sinon": "^17.0.0",
-    "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "unbuild": "^2.0.0",
     "vitest": "^0.34.6"

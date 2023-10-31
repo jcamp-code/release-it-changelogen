@@ -1,0 +1,6 @@
+{
+  "$schema": "https://unpkg.com/knip@2/schema.json",
+  "entry": ["src/index.ts", "src/bin/release-it-changelogen.ts"],
+  "project": ["src/**/*.ts"],
+  "ignoreDependencies": ["sinon"]
+}
