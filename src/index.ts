@@ -121,10 +121,13 @@ class ChangelogenPlugin extends Plugin {
       { newVersion: version },
     )
     this.markdown = await generateMarkDown(commits, config)
-    this.config.setContext({ changelog: this.markdown })
-  }
 
-  async beforeRelease() {
+    // update changelog content for use in releasenotes
+    // this removes the title and any extra spaces
+    this.config.setContext({
+      changelog: this.markdown.split('\n').slice(2).join('\n').trim(),
+    })
+
     const { isDryRun } = this.config
     if (isDryRun) return
 
@@ -142,13 +145,6 @@ class ChangelogenPlugin extends Plugin {
     else changelogMD += `\n${this.markdown}\n\n`
 
     await fsp.writeFile(output, changelogMD)
-  }
-
-  release() {
-    //console.log('release', this.options)
-  }
-  afterRelease() {
-    //console.log('afterRelease', this.options)
   }
 
   // Internal Utils

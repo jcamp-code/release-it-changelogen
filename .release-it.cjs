@@ -6,6 +6,9 @@ module.exports = {
       excludeAuthors: ['John Campion'],
     },
   },
+  hooks: {
+    'after:bump': 'pnpm build',
+  },
   git: {
     commit: true,
     tag: true,
