@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.0.4
+
+[compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.3...v0.0.4)
+
+### 🩹 Fixes
+
+- Remove redundant title from release notes ([c4faeee](https://github.com/jcamp-code/release-it-changelogen/commit/c4faeee))
+
 ## v0.0.3
 
 [compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.2...v0.0.3)
