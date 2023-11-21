@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.0
+
+[compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.4...v0.1.0)
+
+- Update to Release It v17.0.0
+
 ## v0.0.4
 
 [compare changes](https://github.com/jcamp-code/release-it-changelogen/compare/v0.0.3...v0.0.4)
