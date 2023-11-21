@@ -37,7 +37,7 @@
   },
   "peerDependencies": {
     "changelogen": "^0.5.5",
-    "release-it": "^16.2.1",
+    "release-it": "^17.0.0",
     "semver": "^7.5.4"
   },
   "dependencies": {
@@ -47,7 +47,7 @@
     "dotenv": "^16.3.1",
     "execa": "^8.0.1",
     "pathe": "^1.1.1",
-    "release-it": "^16.2.1",
+    "release-it": "^17.0.0",
     "semver": "^7.5.4",
     "yargs-parser": "^21.1.1"
   },
