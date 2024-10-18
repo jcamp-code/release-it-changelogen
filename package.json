@@ -55,7 +55,7 @@
     "@jcamp/eslint-config": "^1.0.4",
     "@types/node": "^20.9.3",
     "@types/semver": "^7.5.6",
-    "eslint": "8.54.0",
+    "eslint": "9.13.0",
     "knip": "^2.41.5",
     "prettier": "3.1.0",
     "sinon": "^17.0.1",
